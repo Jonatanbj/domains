@@ -1,0 +1,29 @@
+site_name: Codigus
+site_url: https://codigus.dev
+
+theme:
+  name: material
+  # Opciones básicas:
+  palette:
+    primary: indigo
+    accent: pink
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.expand
+    - navigation.sections
+    - toc.integrate
+
+# (Opcional) Añade CSS/JS extra:
+extra_css:
+  - css/custom.css
+extra_javascript:
+  - js/custom.js
+
+# Navegación (opcional)
+nav:
+  - Home: index.md
+  - Blog:
+      - Entrada 1: blog/entrada1.md
+      - Entrada 2: blog/entrada2.md

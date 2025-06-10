@@ -1,0 +1,1 @@
+# Euro a Dollar
